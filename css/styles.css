@@ -10,7 +10,7 @@
 /* Navbar */
 .navbar-brand {
     font-family: 'Pacifico', cursive !important;
-    color: whitesmoke !important;
+    color: #f5f5f5 !important;
     font-size: 30px !important;
 }
 .bg-dark {
@@ -160,7 +160,16 @@ html {
     min-height: 100vh;
     flex-direction: column;
     justify-content: space-between;
-  }
+}
+.quote-of-day{
+    /* border: 3px solid rgba(151, 65, 65, 0.664); */
+    /* margin: 30px 15%; */
+    font-style: italic;
+    text-align: center;
+}
+#author {
+    padding-left: 25px;
+}
 
 /* Contact */
 .contact-wrapper {
